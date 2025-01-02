@@ -1,0 +1,5 @@
+"Source_of_variance","df","Sum_of_squares","Variance_components","Variance_percentage","Phi_statistics","p_value"
+"Among groups",6,1771378.8,2294.43,47.23,"Group-total: 0.4723","< 0.01"
+"Among individual within groups",439,2250407.77,2563.11,52.77,"Samples-group: 1","< 0.01"
+"Within individuals",446,0,0,0,"Samples-total: 1","< 0.01"
+"Total",891,4021786.57,4857.54,100,"",""

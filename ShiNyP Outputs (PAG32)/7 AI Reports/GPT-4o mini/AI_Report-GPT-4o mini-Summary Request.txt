@@ -1,0 +1,35 @@
+---------- ShiNyP ----------
+
+----- Successful Request -----
+OpenAI Model: GPT-4o mini
+OpenAI Task: Summary Request
+Total Tokens Used: 2435
+Prompt Tokens: 1679
+Completion Tokens: 756
+
+----- AI-driven report -----
+### SNP Data Description and Quality Control (QC)
+The SNP dataset analyzed comprises 446 samples and includes 12,833 SNPs after quality control procedures. Initially, the dataset had 13,077 SNPs, but filtering was applied to remove SNPs with a missing rate exceeding 5%, a minor allele frequency (MAF) below 0.1, and heterozygosity rates outside the range of 0 to 0.1. The reference genome spans 12 chromosomes with a total length of 373,245,519 base pairs, which results in an average SNP density of about 0.0344 SNPs per 1,000 bp and an average spacing of approximately 29,084.82 bp between SNPs.
+
+### Principal Component Analysis (PCA)
+The PCA conducted highlighted that the first principal component (PC1) explained 3.83% of the genetic variance, while the subsequent components contributed progressively less, with PC2 explaining 1.59% and PC3 at 1.38%. Collectively, the top 15 principal components accounted for a significant amount of the genetic variance, providing insights into the underlying genetic diversity and structure within the wild rice population.
+
+### Discriminant Analysis of Principal Components (DAPC) Clustering
+According to DAPC results, the individuals were effectively grouped into seven distinct clusters based on the Bayesian Information Criterion (BIC) at K = 7. The group sizes ranged from 41 to 80 individuals, indicating a relatively balanced distribution, while the centroids for the first two discriminant functions showed considerable divergence among groups, particularly for Group 6, which had a negative centroid value, indicating a unique genetic profile.
+
+### Genetic Diversity Statistics
+The genetic diversity metrics revealed an average minor allele frequency (MAF) of 0.2425 and an average nucleotide diversity (π) of 0.3521 across all chromosomes. Within-group expected heterozygosity (He) varied widely, from 0.138 in Group 5 to 0.3619 in Group 1, which may indicate differing levels of genetic variability and potential past population bottlenecks or expansions. Notably, no exclusive allele was found in any group, suggesting potential genetic homogenization, while fixed alleles ranged from 286 in Group 3 to 2,828 in Group 2.
+
+### Genetic Distance and Differentiation Statistics
+The genetic distance analyses showed a range of genetic distances between groups, with Group 5 showing the highest distance from Group 1 (0.320) while Groups 6 and 7 displayed minimal differentiation from Group 1 (0.059 and 0.049, respectively). Analysis of Molecular Variance (AMOVA) indicated significant differentiation among the groups, with 47.23% of the variance attributed to differences among groups and a highly significant p-value (< 0.01).
+
+### Selection Sweep Analysis
+Utilizing the PCA-based genome scan for selection, 417 significant selection signatures were identified across the 12 chromosomes with a false discovery rate-adjusted p-value threshold of 0.01. However, no significant selection signatures were detected via the Fst-based OutFLANK approach. These findings suggest potential adaptive traits within the wild rice population, warranting further investigation into the biological implications of the selected loci.
+
+### Core Collection Construction
+The core collection constructed from the SNP data included seven samples, which represent 1.57% of the total dataset but achieved an impressive coverage of 99.7429%. The core SNP set comprised 1,272 SNPs, making up 9.91% of the total SNPs, indicating a robust selection of representative genetic diversity useful for conservation and breeding strategies in wild rice research.
+
+#### WARNING: 
+### This report was generated with the assistance of OpenAI model and is for informational purposes only.
+### It should not be considered as professional advice or a basis for decision-making.
+### Please review and validate the content thoroughly before use.
