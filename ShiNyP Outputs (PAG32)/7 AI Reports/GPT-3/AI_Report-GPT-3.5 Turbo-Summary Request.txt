@@ -1,0 +1,32 @@
+---------- ShiNyP ----------
+
+----- Successful Request -----
+OpenAI Model: GPT-3.5 Turbo
+OpenAI Task: Summary Request
+Total Tokens Used: 2142
+Prompt Tokens: 1683
+Completion Tokens: 459
+
+----- AI-driven report -----
+**SNP Data Description and Quality Control (QC):**
+The SNP dataset comprised 446 samples with 12,833 variants after filtering for missing rate (<0.05), MAF (>0.1), heterozygosity rate (>0), and heterozygosity rate (<0.1). The SNP density averaged 0.0344 SNPs per 1000 bp. Notably, the average nucleotide diversity (π) was 0.3521, indicating substantial genetic variation within the population.
+
+**Principal Component Analysis (PCA):**
+The top 15 principal components explained varying percentages of genetic variance, with PC1 accounting for the highest at 3.83%. The subsequent components contributed lesser proportions but collectively delineated genetic differences among samples, reflecting underlying population structure and diversity.
+
+**Discriminant Analysis of Principal Components (DAPC) Clustering:**
+Utilizing the Bayesian Information Criterion (BIC) at K = 7, 446 samples were effectively grouped into seven clusters based on genetic distances. The discrimination functions of these groups showed distinct centroids, suggesting clear genetic differentiation and structured populations.
+
+**Genetic Diversity Statistics:**
+Genetic diversity metrics like MAF, π, expected heterozygosity (He), and unbiased Pi diversity (Pi) were calculated across the 446 samples. Group-wise averages indicated varying levels of diversity within subpopulations, with groups exhibiting fixed and exclusive alleles. The Genetic Distance Matrix further quantified the differentiation between groups, revealing substantial genetic distances among some clusters.
+
+**Selection Sweep Analysis:**
+The analysis identified 417 significant selection signatures distributed across all 12 chromosomes using the 'PCA-based genome scan for selection (pcadapt)' method. Contrastingly, 'Fst-based genome scan for selection (OutFLANK)' did not detect any significant selection signatures, underscoring the sensitivity of different methods to population-specific adaptations.
+
+**Core Collection Construction:**
+A core collection comprising 7 samples (1.57%) effectively represented 99.7429% of the total genetic diversity, emphasizing the utility of a reduced subset for conservation and breeding purposes. The core SNPs set, consisting of 1,272 variants (9.91%), captured substantial genomic information essential for preserving the overall genetic diversity of the wild rice population.
+
+#### WARNING: 
+### This report was generated with the assistance of OpenAI model and is for informational purposes only.
+### It should not be considered as professional advice or a basis for decision-making.
+### Please review and validate the content thoroughly before use.

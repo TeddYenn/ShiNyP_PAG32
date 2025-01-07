@@ -1,0 +1,35 @@
+---------- ShiNyP ----------
+
+----- Successful Request -----
+OpenAI Model: GPT-4o
+OpenAI Task: Summary Request
+Total Tokens Used: 2447
+Prompt Tokens: 1679
+Completion Tokens: 768
+
+----- AI-driven report -----
+### SNP Data Description and Quality Control (QC)
+The wild rice SNP dataset comprised 446 samples with a total of 13,077 SNPs initially. Post quality control, 12,833 SNPs remained, indicating rigorous data cleaning procedures. SNPs were excluded if they had a missing rate greater than 5%, minor allele frequency (MAF) below 0.1, or heterozygosity rate outside the range of 0 to 0.1. This resulted in a dataset evenly spread across 12 chromosomes with an average SNP spacing of approximately 29,084.82 base pairs, translating to a density of 0.0344 SNPs per 1000 base pairs. Such density indicates a moderate level of genomic coverage suitable for various downstream analyses.
+
+### Principal Component Analysis (PCA)
+The PCA results highlighted how the genetic variance is distributed across the primary 15 principal components, with the first (PC1) capturing the most variance at 3.83% and a gradual decline to 0.41% by the 15th component. Although each component accounts for a small proportion of variance, cumulatively, they provide insights into the population's genetic structure, suggesting moderate genetic differentiation among samples.
+
+### Discriminant Analysis of Principal Components (DAPC) Clustering
+Through DAPC, the 446 individuals were clustered into 7 distinct genetic groups, optimizing the BIC value at K=7. Group sizes ranged from 41 to 80 individuals, indicating heterogeneous group distributions. The discrimination functions revealed significant group separation, especially noted along the first discriminant function, where Group 6 showed a markedly lower centroid (-10.26) compared to others, suggesting potentially unique genetic features within that group. This clustering effectively underscores the population structure and suggests moderate genetic differentiation among groups.
+
+### Genetic Diversity Statistics
+The SNP dataset exhibited comprehensive genetic diversity with π (nucleotide diversity) averaging 0.3521 across all chromosomes and a MAF of 0.2425, indicating a diverse genetic background. Group-specific expected heterozygosity ranged from 0.138 to 0.3619, with Group 1 being the most diverse. Although no exclusive alleles were found in any group, fixed alleles varied significantly, with Group 2 having the most (2828). The diversity measures suggest a history of moderate bottlenecks and expansions within the population.
+
+### Genetic Distance and Differentiation Statistics
+Genetic distance calculations unveiled varying degrees of genetic differentiation between groups, with Group 5 appearing more genetically distant from others, evidenced by its higher pairwise distances (e.g., 0.320 with Group 1). AMOVA results showed substantial genetic variance among groups (47.23%) and among individuals within groups (52.77%), each statistically significant with p-values below 0.01, highlighting the diverse genetic structure within the population.
+
+### Selection Sweep Analysis
+The PCA-based genome scan identified 417 SNP loci under potential selection across the 12 chromosomes using a stringent FDR-adjusted p-value significance threshold (α = 0.01). Notably, no significant selection signatures were found through the Fst-based OutFLANK analysis. This disparity suggests that the PCA-based method may be more sensitive in detecting selection in this dataset, identifying regions possibly associated with adaptive traits.
+
+### Core Collection Construction
+A core sample set was established, comprising 7 individuals (1.57% of the population), capturing 99.7429% of the total genetic variation. Additionally, a core SNP set was defined, with 1,272 SNPs (9.91% of the total). This core collection is instrumental for future studies aimed at rapid yet representative genetic analysis, ensuring broad genetic diversity is maintained while minimizing redundancy, facilitating more efficient conservation and breeding efforts.
+
+#### WARNING: 
+### This report was generated with the assistance of OpenAI model and is for informational purposes only.
+### It should not be considered as professional advice or a basis for decision-making.
+### Please review and validate the content thoroughly before use.

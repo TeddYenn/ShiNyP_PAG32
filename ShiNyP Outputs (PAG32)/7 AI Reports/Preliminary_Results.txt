@@ -1,0 +1,46 @@
+# Data Input
+Input raw data: Wild rice SNP dataset
+Number of samples: 446
+Number of SNPs: 13077
+SNP QC
+Removed SNPs with missing rate > 0.05, MAF < 0.1, heterozygosity rate < 0, and heterozygosity rate > 0.1
+Number of samples: 446
+Number of SNPs: 12833
+# Summary of Reference Genome and SNP Density
+Number of chromosomes: 12
+Total length (bp): 373245519
+---------------------
+Number of SNPs: 12833
+Average SNP spacing: 29084.82 bp
+Average number of SNPs per 1000bp: 0.0344 SNPs
+
+-> Wild rice SNP dataset for downstream analysis
+# Population Structure
+Principal Component Analysis (PCA)
+Top 15 PCs explained variance (%), PC 1 to PC 15: 3.83, 1.59, 1.38, 1.04, 0.84, 0.56, 0.53, 0.49, 0.46, 0.44, 0.44, 0.43, 0.42, 0.42, 0.41
+Discriminant Analysis of Principal Components (DAPC)
+The samples were divided into 7 groups based on the BIC value at K = 7
+Group sizes, Group 1 to Group 7: 41, 54, 52, 79, 70, 70, 80
+The group centroid of each group at first discriminant function, Group 1 to Group 7: -3.93, 4.13, 1.43, 2.71, 2.53, -10.26, 2.68
+The group centroid of each group at second discriminant function, Group 1 to Group 7: -0.51, 2.6, -1.03, 3.38, -2.85, 0.5, -2.15
+# Genetic Diversity
+Across all chromosomes, the average missing rate, minor allele frequency (MAF), and nucleotide diversity π were 0%, 0.2425, and 0.3521, respectively.
+The average expected heterozygosity (He) of each group, Group 1 to Group 7: 0.3619, 0.1416, 0.2405, 0.2297, 0.138, 0.1961, 0.1394
+The average Unbiased pi diversity (Pi) of each group, Group 1 to Group 7: 0.371, 0.1443, 0.2452, 0.2327, 0.14, 0.1989, 0.1411
+The number of exclusive allele of each group, Group 1 to Group 7: 0, 0, 0, 0, 0, 0, 0
+The number of fixed allele of each group, Group 1 to Group 7: 1296, 2828, 286, 506, 2072, 1885, 1409
+The Genetic Distance Matrix between pairs of groups:
+Group 2-Group 1: 0.138; Group 3-Group 1: 0.062; Group 3-Group 2: 0.098; Group 4-Group 1: 0.061; Group 4-Group 2: 0.172; Group 4-Group 3: 0.064; Group 5-Group 1: 0.320; Group 5-Group 2: 0.065; Group 5-Group 3: 0.284; Group 5-Group 4: 0.369; Group 6-Group 1: 0.059; Group 6-Group 2: 0.125; Group 6-Group 3: 0.021; Group 6-Group 4: 0.070; Group 6-Group 5: 0.319; Group 7-Group 1: 0.049; Group 7-Group 2: 0.067; Group 7-Group 3: 0.034; Group 7-Group 4: 0.077; Group 7-Group 5: 0.222; Group 7-Group 6: 0.035
+The Analysis of Molecular Variance (AMOVA) results:
+Estimated variance percentage (%) and p-value of population strata: Among groups: 47.23, p-value: < 0.01; Among individual within groups: 52.77, p-value: < 0.01; Within individuals: 0, p-value: < 0.01
+# Selection Sweep
+The results of 'PCA-based genome scan for selection (pcadapt)': 
+417 significant selection signatures (SNP loci) were detected across 12 chromosomes with the Benjamini & Hochberg (FDR) P-value adjustment method at α = 0.01
+The results of 'Fst-based genome scan for selection (OutFLANK)': 
+0 significant selection signatures (SNP loci) were detected across 12 chromosomes with the Benjamini & Hochberg (FDR) P-value adjustment method at α = 0.01
+# Core Collection
+Core Sample Set
+Number of core samples: 7 (1.57%)
+Total coverage: 99.7429%
+Core SNPs set
+Number of core SNPs: 1272 (9.91%)
