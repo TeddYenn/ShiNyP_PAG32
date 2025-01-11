@@ -2,6 +2,8 @@
 
 Thank you for attending [my talk](https://plan.core-apps.com/pag32/event/4d484110adf7a8fd65f25ede0bea4d5f)!
 
+Have any feedback or questions? Feedback form: https://forms.gle/UW912VoYU6WnCMZWA
+
 Here are some additional materials:
 
 - _**ShiNyP User Manual**_: https://teddyenn.github.io/ShiNyP-guide/
@@ -15,6 +17,7 @@ Feel free to chat with me during the conference or reach out anytime—I’m alw
 
 **Yen-Hsiang Huang (Teddy)**
 
+Master Student
 -- Biostatistics and Bioinformatics Division
 -- Department of Agronomy
 -- National Chung Hsing University (NCHU, Taiwan)
